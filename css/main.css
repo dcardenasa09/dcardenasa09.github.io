@@ -1,0 +1,302 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap");
+html {
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+html,
+body {
+  font-family: 'Poppins', sans-serif !important;
+  height: 100%;
+  margin: 0;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -moz-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  -ms-transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 100%; }
+  html h2,
+  body h2 {
+    font-family: 'BoldRoxboroughCF' !important;
+    font-size: 1.8rem; }
+  html p, html a, html li,
+  body p,
+  body a,
+  body li {
+    font-family: 'RegularRubik' !important;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0; }
+  html section,
+  body section {
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+    html section .container,
+    body section .container {
+      max-width: 80%; }
+    html section .container-fluid,
+    body section .container-fluid {
+      width: 95%; }
+  html ul,
+  body ul {
+    margin: 0;
+    padding: 0; }
+    html ul li,
+    body ul li {
+      list-style: none; }
+  html .background,
+  body .background {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+    html .background.cover,
+    body .background.cover {
+      background-size: cover; }
+    html .background.parallax,
+    body .background.parallax {
+      background-attachment: fixed; }
+  html .text-justify,
+  body .text-justify {
+    text-align: justify; }
+  html .text-blue,
+  body .text-blue {
+    color: #03040c; }
+  html .text-white,
+  body .text-white {
+    color: #fff; }
+  html .text-orange,
+  body .text-orange {
+    color: #ff8100; }
+  html .text-gray,
+  body .text-gray {
+    color: #575757; }
+  html .bg-blue,
+  body .bg-blue {
+    background-color: #03040c; }
+  html .bg-orange,
+  body .bg-orange {
+    background-color: #ff8100; }
+  html .bg-gray,
+  body .bg-gray {
+    background-color: #575757; }
+  html .relative,
+  body .relative {
+    position: relative; }
+  html .absolute,
+  body .absolute {
+    position: absolute; }
+  html button,
+  body button {
+    border-radius: 5px;
+    font-family: 'MediumRoxboroughCF';
+    font-size: 1rem;
+    padding: 8px 30px; }
+    html button.button-orange,
+    body button.button-orange {
+      background: #ff8100;
+      border: 1px solid #ff8100;
+      color: #fff; }
+    html button.button-green,
+    body button.button-green {
+      background: #57714f;
+      border: 1px solid #57714f;
+      color: #fff !important; }
+    html button.button-white,
+    body button.button-white {
+      background: #fff;
+      border: 1px solid #0c0c0c;
+      color: #0c0c0c !important; }
+    html button.shadow,
+    body button.shadow {
+      box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.12); }
+  html .cont-redes,
+  body .cont-redes {
+    height: 40px;
+    width: 40px; }
+    html .cont-redes .redes,
+    body .cont-redes .redes {
+      background-position: top;
+      height: 100%;
+      width: 100%; }
+      html .cont-redes .redes.lin,
+      body .cont-redes .redes.lin {
+        background-image: url("../images/iconos/linkedin.png"); }
+      html .cont-redes .redes:hover,
+      body .cont-redes .redes:hover {
+        background-position: bottom; }
+  html .contImg,
+  body .contImg {
+    padding-top: 100px; }
+    html .contImg img,
+    body .contImg img {
+      max-height: 500px;
+      object-fit: contain;
+      width: 100%; }
+  html .line,
+  body .line {
+    position: absolute;
+    width: 100%; }
+  html .line-down,
+  body .line-down {
+    bottom: 0;
+    position: absolute;
+    width: 100%; }
+  html .list,
+  body .list {
+    margin-top: 20px;
+    padding: 0 !important; }
+
+img.portada {
+  height: 100%;
+  object-fit: cover;
+  width: 100%; }
+
+.navbar-light .navbar-toggler {
+  border-color: transparent;
+  color: rgba(0, 0, 0, 0.55); }
+  .navbar-light .navbar-toggler:focus {
+    box-shadow: none !important; }
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12);
+  font-size: 14px;
+  position: fixed;
+  width: 100%;
+  z-index: 5000; }
+  .header .full-menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase; }
+    .header .full-menu a.nav-link:hover, .header .full-menu a.nav-link:focus {
+      color: #ff8100 !important; }
+  .header .container-menu {
+    margin: auto;
+    width: 80%; }
+
+footer {
+  background-color: #0c0c0c;
+  padding: 40px 0; }
+  footer p {
+    font-family: 'LightRubik' !important;
+    font-size: 0.7rem;
+    margin: 0;
+    width: 200px; }
+  footer a {
+    color: #fff !important;
+    font-family: 'LightRubik' !important;
+    font-size: 0.7rem;
+    margin: 0; }
+
+#inicio {
+  background-color: #000;
+  padding-top: 81px; }
+  #inicio .parallax {
+    background-image: url("../images/fondo.webp");
+    background-position-y: 100%;
+    height: 200%; }
+  #inicio .absolute {
+    background: rgba(0, 0, 0, 0.5);
+    left: 0;
+    top: 0; }
+    #inicio .absolute .parallax-text {
+      height: 100%; }
+      #inicio .absolute .parallax-text .card {
+        background: rgba(0, 0, 0, 0.8);
+        padding: 64px; }
+        #inicio .absolute .parallax-text .card h1 {
+          font-family: 'BoldRoxboroughCF';
+          font-size: 4rem;
+          margin: 0; }
+        #inicio .absolute .parallax-text .card p {
+          font-size: 1.3rem; }
+          #inicio .absolute .parallax-text .card p small {
+            font-size: 18px; }
+
+#about-us {
+  background-color: #575757; }
+  #about-us .about-text {
+    background-color: #0c0c0c;
+    border-radius: 30px 0px 0px 30px;
+    margin-left: -25px; }
+    #about-us .about-text h2 {
+      font-family: 'ThinRoxboroughCF' !important;
+      font-size: 1.8rem; }
+    #about-us .about-text h3 {
+      font-size: 1.3rem; }
+    #about-us .about-text p {
+      font-family: 'LightRubik' !important;
+      margin-bottom: 40px; }
+    #about-us .about-text img {
+      width: 180px; }
+  #about-us h4 {
+    color: #F6C040;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 100%;
+    margin-top: 15px !important;
+    margin: 0; }
+  #about-us li {
+    color: #57714f;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 110%;
+    list-style: none; }
+
+#languajes {
+  background-color: #03040c;
+  padding: 30px 40px;
+  position: relative; }
+  #languajes .content {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 80px 0; }
+    #languajes .content h2 {
+      font-size: 2vw; }
+    #languajes .content p {
+      font-size: 20px; }
+    #languajes .content figure {
+      margin-bottom: 15px !important;
+      margin: 0;
+      text-align: center; }
+      #languajes .content figure img {
+        margin-bottom: 15px;
+        max-width: 70px; }
+      #languajes .content figure figcaption {
+        font-size: 1.3rem; }
+  #languajes img.absolute {
+    height: 95%;
+    left: -250px;
+    top: 2.5%; }
+
+#services {
+  background: #e9e9e9;
+  padding: 40px 50px; }
+  #services .fotos li {
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 800; }
+    #services .fotos li .content-image {
+      height: 46px;
+      margin-right: 8px;
+      padding: 8px;
+      width: 46px; }
+      #services .fotos li .content-image img {
+        margin: auto;
+        object-fit: contain;
+        width: 100%; }
+  #services figure {
+    margin: 0;
+    margin-bottom: 15px;
+    max-width: 180px;
+    min-width: 150px;
+    text-align: center; }
+    #services figure img {
+      margin-bottom: 15px; }
+    #services figure figcaption {
+      font-size: 1.2vw;
+      color: #3c3c3b;
+      font-weight: 600; }
+
+/*# sourceMappingURL=main.css.map */

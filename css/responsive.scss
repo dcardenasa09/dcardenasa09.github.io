@@ -1,0 +1,111 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+    #inicio {
+        padding-top: 60px;
+        .absolute {
+            .parallax-text {
+                
+            }
+        }
+    }
+    #languajes {
+        .absolute {
+            display: none;
+        }
+    }
+    #services {
+        .contText {
+            border: none !important;
+        }
+    }
+    footer {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #inicio {
+        .absolute {
+            .parallax-text {
+                .card {
+                    padding: 32px;
+                }                
+            }
+        }
+    }
+    #about-us {
+        .about-text {
+            border-radius: 0 !important;
+            margin-left: 0px !important;
+        }
+    }
+    #languajes {
+        padding: 0 !important;
+    }
+    #services {
+        .contText {
+            .content-text {
+                h3, p, a, li {
+                    text-align: center !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+
+    #inicio {
+        .parallax {
+            background-size: 140%;
+        }
+        .absolute {
+            .parallax-text {
+                .card {
+                    padding: 16px;
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+    #about-us {
+        .about-text {
+            padding: 40px 0 !important;
+        }
+    }
+    #languajes {
+        .content {
+            border: none !important;
+            border-radius: 0 !important;
+            padding: 40px 0;
+            h2 {
+                font-size: 1.8rem !important;
+                margin: auto;
+                width: 85%;
+            }
+			figure {
+				img {
+					max-width: 40px !important;
+				}
+				figcaption {
+					font-size: 16px;
+				}
+			}
+		}
+    }
+    #services {
+        padding: 40px 10px;
+        .fotos {
+            li {
+                font-size: 16px;
+            }
+        }
+    }
+    .text-paragraph {
+        text-align: center !important;
+    }
+}
