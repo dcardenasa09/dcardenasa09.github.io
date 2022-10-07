@@ -17,13 +17,11 @@ body {
   width: 100%; }
   html h2,
   body h2 {
-    font-family: 'BoldRoxboroughCF' !important;
     font-size: 1.8rem; }
   html p, html a, html li,
   body p,
   body a,
   body li {
-    font-family: 'RegularRubik' !important;
     font-size: 16px;
     text-decoration: none;
     margin: 0; }
@@ -89,7 +87,6 @@ body {
   html button,
   body button {
     border-radius: 5px;
-    font-family: 'MediumRoxboroughCF';
     font-size: 1rem;
     padding: 8px 30px; }
     html button.button-orange,
@@ -179,13 +176,11 @@ footer {
   background-color: #0c0c0c;
   padding: 40px 0; }
   footer p {
-    font-family: 'LightRubik' !important;
     font-size: 0.7rem;
     margin: 0;
     width: 200px; }
   footer a {
     color: #fff !important;
-    font-family: 'LightRubik' !important;
     font-size: 0.7rem;
     margin: 0; }
 
@@ -206,7 +201,6 @@ footer {
         background: rgba(0, 0, 0, 0.8);
         padding: 64px; }
         #inicio .absolute .parallax-text .card h1 {
-          font-family: 'BoldRoxboroughCF';
           font-size: 4rem;
           margin: 0; }
         #inicio .absolute .parallax-text .card p {
@@ -221,12 +215,10 @@ footer {
     border-radius: 30px 0px 0px 30px;
     margin-left: -25px; }
     #about-us .about-text h2 {
-      font-family: 'ThinRoxboroughCF' !important;
       font-size: 1.8rem; }
     #about-us .about-text h3 {
       font-size: 1.3rem; }
     #about-us .about-text p {
-      font-family: 'LightRubik' !important;
       margin-bottom: 40px; }
     #about-us .about-text img {
       width: 180px; }
@@ -298,5 +290,59 @@ footer {
       font-size: 1.2vw;
       color: #3c3c3b;
       font-weight: 600; }
+
+.imgflip-vertical {
+  backface-visibility: hidden;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  margin: 0;
+  perspective: 50em;
+  position: relative;
+  transform: translateZ(0);
+  width: 100%;
+  transition: all 0.5s ease;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transform: translateZ(0); }
+  .imgflip-vertical:before, .imgflip-vertical:after {
+    box-sizing: border-box;
+    transition: all 0.5s ease; }
+  .imgflip-vertical * {
+    box-sizing: border-box;
+    transition: all 0.5s ease; }
+    .imgflip-vertical *:before, .imgflip-vertical *:after {
+      box-sizing: border-box;
+      transition: all 0.5s ease; }
+  .imgflip-vertical img {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    min-height: 350px;
+    object-fit: cover;
+    vertical-align: top;
+    width: 100%; }
+  .imgflip-vertical figcaption {
+    background-color: #0c0c0c;
+    bottom: 0;
+    color: #ffffff;
+    left: 0;
+    opacity: 0;
+    padding: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    transform-origin: 50% 0%;
+    -webkit-transform-origin: 50% 0%; }
+  .imgflip-vertical:hover img {
+    opacity: 0;
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg); }
+  .imgflip-vertical:hover figcaption {
+    opacity: 1;
+    transition-delay: 0.14s;
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg); }
 
 /*# sourceMappingURL=main.css.map */
