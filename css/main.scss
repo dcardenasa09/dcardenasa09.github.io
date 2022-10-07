@@ -356,22 +356,6 @@ footer {
 	}
 }
 
-// [class^="imgflip-"],
-// [class*=" imgflip-"],
-// [class^="imgflip-"]:before,
-// [class^="imgflip-"]:after,
-// [class*=" imgflip-"]:before,
-// [class*=" imgflip-"]:after,
-// [class^="imgflip-"] *,
-// [class*=" imgflip-"] *,
-// [class^="imgflip-"] *:before,
-// [class^="imgflip-"] *:after,
-// [class*=" imgflip-"] *:before,
-// [class*=" imgflip-"] *:after {
-//     box-sizing: border-box;
-//     transition: all 0.5s ease;
-// }
-
 .imgflip-vertical {
 	backface-visibility: hidden;
 	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.20), 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
