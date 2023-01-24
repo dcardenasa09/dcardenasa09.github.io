@@ -103,8 +103,8 @@
                             <p>Tengo experiencia en la gestión y organización de equipos de trabajo (como líder de equipo), toma de requerimientos, planeación de tiempos de desarrollo, atención a clientes, posicionamiento en buscadores (SEO) e identificación de lenguaje y tecnología de acuerdo a los requerimientos.</p>
                             <div class="col-12">
                                 <div class="d-flex align-items-center justify-content-around">
-                                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b1ecd7a1-773c-4126-86ed-f4291c9202e6" data-share-badge-host="https://www.credly.com"></div>
-                                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="679c5463-2448-49a2-a683-e7dfeeaec8f1" data-share-badge-host="https://www.credly.com"></div>
+                                    <div id="badges" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b1ecd7a1-773c-4126-86ed-f4291c9202e6" data-share-badge-host="https://www.credly.com"></div>
+                                    <div id="badges" data-iframe-width="150" data-iframe-height="270" data-share-badge-id="679c5463-2448-49a2-a683-e7dfeeaec8f1" data-share-badge-host="https://www.credly.com"></div>
                                 </div>
                             </div>
                         </div>
@@ -329,6 +329,8 @@
     <script type="text/javascript" src="components/bootstrap/js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="js/scroll.js"></script>
     <script>
+        document.getElementById('badges').contentWindow.document.body.style.color = 'white';
+
         function todayDate() {
 
             var d = new Date();
