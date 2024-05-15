@@ -56,20 +56,23 @@
 }
 
 @media (max-width: 576px) {
+    .btn-ring-animation {
+        min-width: 100%;
+        &:before {
+            content: '';
+            min-width: calc(100% + 12px);
+        }
+    }
 
     #inicio {
+        .card {
+            padding: 16px;
+            h1 {
+                font-size: 2.5rem;
+            }
+        }
         .parallax {
             background-size: 140%;
-        }
-        .absolute {
-            .parallax-text {
-                .card {
-                    padding: 16px;
-                    h1 {
-                        font-size: 2.5rem;
-                    }
-                }
-            }
         }
     }
     #about-us {

@@ -22,7 +22,11 @@
                         <ul class="d-flex align-items-center justify-content-center ms-3">
                             <li class="p-1 cont-redes">
                                 <a href="http://www.linkedin.com/in/dcardenasa09" target="_blank">
-                                    <div class="redes lin background cover"></div>
+                                    <div class="redes">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="gray" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                        </svg>
+                                    </div>
                                 </a>
                             </li>
                         </ul>
@@ -76,17 +80,41 @@
                 </nav>                
             </div>
         </header>
-        <section id="inicio" class="portada relative active h-100">
-            <div class="background parallax"></div>
-            <div class="absolute w-100 h-100">
-                <div class="container h-100">
-                    <div class="d-flex justify-content-center align-items-center parallax-text">
-                        <div class="card text-center wow fadeInUp">    
-                            <p class="text-white"><small>Hola, mi nombre es:</small></p>
-                            <h1 class="text-white">Daniel Cárdenas Arenas</h1>
-                            <a href="./pdf/CV_ES.pdf"  target="_blank"><button type="button" class="btn button-orange my-4">¡Descarga mi CV!</button></a>
-                        </div>
+        <section id="inicio" class="portada relative active vh-100">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="card text-center wow fadeInUp">    
+                    <p class="text-white"><small>Hola, mi nombre es:</small></p>
+                    <div class="d-flex flex-column flex-sm-row flex-wrap justify-content-center">
+                        <ul class="d-flex flex-row justify-content-center align-items-center my-3 my-sm-5">
+                            <li class="wow bounceInDown"><h1 data-text="D">D</h1></li>
+                            <li class="wow bounceInDown" data-wow-delay="100ms"><h1 data-text="A">A</h1></li>
+                            <li class="wow bounceInDown" data-wow-delay="200ms"><h1 data-text="N">N</h1></li>
+                            <li class="wow bounceInDown" data-wow-delay="300ms"><h1 data-text="I">I</h1></li>
+                            <li class="wow bounceInDown" data-wow-delay="400ms"><h1 data-text="E">E</h1></li>
+                            <li class="wow bounceInDown" data-wow-delay="500ms"><h1 data-text="L">L</h1></li>
+                        </ul>
+                        <ul class="d-flex flex-row justify-content-center align-items-center my-3 my-sm-5 mx-3">
+                            <li class="wow bounceInDown" data-wow-delay="600ms"><h1 data-text="C">C</li>
+                            <li class="wow bounceInDown" data-wow-delay="700ms"><h1 data-text="Á">Á</li>
+                            <li class="wow bounceInDown" data-wow-delay="800ms"><h1 data-text="R">R</li>
+                            <li class="wow bounceInDown" data-wow-delay="900ms"><h1 data-text="D">D</li>
+                            <li class="wow bounceInDown" data-wow-delay="1000ms"><h1 data-text="E">E</li>
+                            <li class="wow bounceInDown" data-wow-delay="1100ms"><h1 data-text="N">N</li>
+                            <li class="wow bounceInDown" data-wow-delay="1200ms"><h1 data-text="A">A</li>
+                            <li class="wow bounceInDown" data-wow-delay="1300ms"><h1 data-text="S">S</li>
+                            </ul>
+                        <ul class="d-flex flex-row justify-content-center align-items-center my-3 my-sm-5">
+                            <li class="wow bounceInDown" data-wow-delay="1400ms"><h1 data-text="A">A</li>
+                            <li class="wow bounceInDown" data-wow-delay="1500ms"><h1 data-text="R">R</li>
+                            <li class="wow bounceInDown" data-wow-delay="1600ms"><h1 data-text="E">E</li>
+                            <li class="wow bounceInDown" data-wow-delay="1700ms"><h1 data-text="N">N</li>
+                            <li class="wow bounceInDown" data-wow-delay="1800ms"><h1 data-text="A">A</li>
+                            <li class="wow bounceInDown" data-wow-delay="1900ms"><h1 data-text="S">S</li>
+                        </ul>
                     </div>
+                    <a href="./pdf/CV_ES.pdf" target="_blank">
+                        <button class="btn-ring-animation mt-5">¡Descargar CV!</button>
+                    </a>
                 </div>
             </div>
         </section>
@@ -99,9 +127,8 @@
                     <div class="d-flex align-items-center justify-content-center about-text background cover h-100">
                         <div class="col-lg-8 col-md-9 col-10 text-center text-white py-3 wow fadeInRight">
                             <h3 class="mb-3 text-orange">Desarrollador Full Stack</h3>
-                            <p clas="mb-3">Con más de 8 años de experiencia en el desarrollo de software, he liderado proyectos destacados, como el desarrollo de sistemas de planificación de recursos empresariales (ERP) para la gestión integral de organizaciones. En mi rol actual de Team Leader en la empresa 3Code Mx, gestiono la planificación de arquitecturas de software y patrones de diseño, además de supervisar el despliegue y rendimiento de aplicaciones. </p>
-                            <p clas="mb-3">Entre mis competencias técnicas se encuentran el dominio de .Net, Angular, GitFlow, Servicios en la nube (Azure, AWS) y DevOps con metodologías agiles como Scrum. Poseo certificaciones en Microsoft Azure, DevOps, Angular y .Net respaldando mi profundo conocimiento y habilidades en estas áreas clave. Mi enfoque en la mejora continua y la adquisición de nuevas habilidades se refleja en mi participación en proyectos multidisciplinarios.</p>
-                            <p clas="mb-5">Mi objetivo profesional se enfoca en la adquisición de nuevas habilidades, permitiéndome aportar valor a través de la tecnología. Estoy preparado/a para afrontar nuevos desafíos y contribuir al crecimiento y éxito continuo de proyectos tecnológicos de vanguardia.</p>
+                            <p clas="mb-3">Con más de una década de experiencia en desarrollo de software, mi trayectoria profesional ha sido diversa y enriquecedora. Actualmente, ejerzo como Team Lead en una destacada empresa especializada en soluciones tecnológicas innovadoras. En esta posición, dirijo y organizo equipos, planifico arquitecturas de software y superviso el despliegue de aplicaciones. Mi expertise abarca un amplio espectro de lenguajes y tecnologías, que van desde .Net Core, Laravel, Angular y React JS hasta servicios en la nube como AWS y Azure Cloud, entre otros.</p>
+                            <p clas="mb-3">Mi enfoque profesional está firmemente centrado en la continua superación y la entrega de valor a través de la tecnología. Aspiro a seguir ampliando mis conocimientos y habilidades, mientras colaboro con equipos multidisciplinarios para satisfacer las necesidades de nuestros clientes.</p>
                             <div class="col-12">
                                 <div class="d-flex align-items-center justify-content-around">
                                     <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b1ecd7a1-773c-4126-86ed-f4291c9202e6" data-share-badge-host="https://www.credly.com"></div>
@@ -297,32 +324,56 @@
                     <div class="col-lg-9 col-md-10 col-12 container-images py-4">
                         <ul class="d-flex flex-wrap align-content-stretch">
                             <li class="col-xl-4 col-lg-6 col-md-12 col-xs-12 p-3">
-                                <figure class="imgflip-vertical p">
-                                    <img src="./images/pages/triton.png" alt="Car Delivery 1">
+                                <figure class="project-card shadow">
+                                    <img src="./images/pages/triton.png" alt="Triton Desarrollos">
                                     <figcaption class="d-flex flex-column align-items-center justify-content-center txt-secundary text-center py-3 h-100">
                                         <h4 class="text-orange">Tritón</h4>
                                         <p>Empresa dedicada al desarrollo de complejos residenciales y centros comerciales en el sureste de México.</p>
-                                        <a href="https://tritondesarrollos.com"  target="_blank"><button type="button" class="btn button-orange my-4">Visitar el sitio</button></a>
+                                        <a href="https://tritondesarrollos.com" target="_blank">
+                                            <button type="button" class="btn-hover my-4">
+                                                <span class="text">Visitar el sitio</span>
+                                                <span class="first"></span>
+                                                <span class="second"></span>
+                                                <span class="third"></span>
+                                                <span class="fourth"></span>
+                                            </button>
+                                        </a>
                                     </figcaption>
                                 </figure>
                             </li>
                             <li class="col-xl-4 col-lg-6 col-md-12 col-xs-12 p-3">
-                                <figure class="imgflip-vertical p">
+                                <figure class="project-card shadow">
                                     <img src="./images/pages/silvestre.png" alt="Car Delivery 1">
                                     <figcaption class="d-flex flex-column align-items-center justify-content-center txt-secundary text-center py-3 h-100">
                                         <h4 class="text-orange">Silvestre</h4>
                                         <p>Desarrollo más exclusivo de terrenos residenciales.</p>
-                                        <a href="https://silvestreresidencial.com"  target="_blank"><button type="button" class="btn button-orange my-4">Visitar el sitio</button></a>
+                                        <a href="https://silvestreresidencial.com" target="_blank">
+                                            <button type="button" class="btn-hover my-4">
+                                                <span class="text">Visitar el sitio</span>
+                                                <span class="first"></span>
+                                                <span class="second"></span>
+                                                <span class="third"></span>
+                                                <span class="fourth"></span>
+                                            </button>
+                                        </a>
                                     </figcaption>
                                 </figure>
                             </li>
                             <li class="col-xl-4 col-lg-6 col-md-12 col-xs-12 p-3">
-                                <figure class="imgflip-vertical p">
+                                <figure class="project-card shadow">
                                     <img src="./images/pages/pri.png" alt="Car Delivery 1">
                                     <figcaption class="d-flex flex-column align-items-center justify-content-center txt-secundary text-center py-3 h-100">
                                         <h4 class="text-orange">PRI Yucatán</h4>
                                         <p>Página Oficial del Comité Directivo Estatal del Partido Revolucionario Institucional en Yucatán.</p>
-                                        <a href="http://pri-yucatan.mx"  target="_blank"><button type="button" class="btn button-orange my-4">Visitar el sitio</button></a>
+                                        <a href="http://pri-yucatan.mx" target="_blank">
+                                            <button type="button" class="btn-hover my-4">
+                                                <span class="text">Visitar el sitio</span>
+                                                <span class="first"></span>
+                                                <span class="second"></span>
+                                                <span class="third"></span>
+                                                <span class="fourth"></span>
+                                            </button>
+                                        </a>
                                     </figcaption>
                                 </figure>
                             </li>                            
@@ -340,7 +391,7 @@
             </div>
         </footer>
     </body>
-    <script type="text/javascript" src="//cdn.credly.com/assets/utilities/embed.js"></script>
+    <!-- <script type="text/javascript" src="//cdn.credly.com/assets/utilities/embed.js"></script> -->
     <script type="text/javascript" src="components/jquery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="components/bootstrap/js/bootstrap.js"></script>
     <script type="text/javascript" src="components/bootstrap/js/bootstrap.bundle.js"></script>

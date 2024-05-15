@@ -2,7 +2,6 @@
 
 // polyfill
 function polyfill() {
-
     var w = window;
     var d = document;
 
